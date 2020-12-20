@@ -1,9 +1,6 @@
-# Recursive Multiplying MPI
+# Recursive Multiplying MPI All reduce
 Implementation from Generalisation of recursive doubling for allreduce from https://www.sciencedirect.com/science/article/pii/S0167819117301199
-
-## Requeriments
-You only need [MPICH](https://www.mpich.org/) to run this code
-## Run
+You only need [MPICH] to run this project
 You just need to compile the file using `mpic++`
 ```sh
 $ mpic++ --std=c++11 all_reduce.cpp
